@@ -1,0 +1,18 @@
+.player {
+    display:flex;
+    align-items: center;
+    width: 300px;
+    height: 32px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    span {
+        font-size: 32px;
+        margin-left: 16px;
+    }
+
+    background-color: rgba(148, 147, 147, 0.795);
+}
+
+.player-active {
+    background-color: orange !important;
+}
